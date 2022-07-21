@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: darkcyan;
+            text-decoration: none;
+
+        }
+
+        /*  Pseudo-classe = :
+            Pseudo-elemento = ::*/
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: aquamarine;
+        }
+
+        a::after {
+            content: '[link]';
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/rodolfomcosta" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://ge.globo.com/Fluminense" target="_blank">Site qualquer</a></li>
+    </ul>
+    
+</body>
+</html>
