@@ -10,3 +10,5 @@ Curso atual: HTML5 e CSS3 - Gustavo Guanabara/Youtube | Módulo 3
 ## Projetos 
 
 <a href="https://rodolfomcosta.github.io/projeto-android/" target="_blank">Android - Curso em Video</a>
+
+<a href="https://rodolfomcosta.github.io/projeto-cordel/" target="_blank">Cordel - Curso em Video</a>
