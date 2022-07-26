@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus veniam. Quia laborum, ut vitae natus repellendus optio dolorem doloremque, eligendi nesciunt voluptate molestias. Laudantium excepturi iure veritatis voluptatibus aut?</p>
+    <iframe src="exercicio-22/pags-extras/pag04.html" sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
+    <!--
+        Os problemas de segurança que o iframe oferece podem ser mitigados usando alguns parâmetros:
+            sandbox="sandbox" -> bloqueia qualquer acesso que o conteúdo inserido no iframe tente realizar.
+            Outros valores permitem acesso limitado."allow-same-origin", por exemplo, permite o acesso a documentos da mesma origem.
+            Pode-se colocar mais de um valor para este parâmetro, controlando melhor a segurança do iframe.
+            referrerpolicy="no-referrer-when-downgrade" (valor padrão) -> modificando o valor para "no-referrer" impede que o conteúdo inserido no iframe não colete informações do usuário
+    -->
+</body>
+</html>
