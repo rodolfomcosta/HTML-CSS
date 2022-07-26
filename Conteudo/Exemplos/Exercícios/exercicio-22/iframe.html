@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 80vw;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframe</h1>
+    <p>
+        Acessando o site do
+
+        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+            O texto escrito entre as tags será exibido caso o dispositivo/navegador não tiver compatibilidade com a tag
+        </iframe>
+        <!--
+            Tamanho padrão do iframe: 300x150 px
+            Para mudar o tamanho: parâmetros height="" e width=""
+            Como sempre, é melhor modificar esses parâmetros com as CSS.
+            A modificação das CSS prevalece.
+            Para exibição de conteúdo próprio, é semanticamente melhor o uso do overflow, além de não correr risco de falta de compatibilidade do navegador.
+        -->
+        
+        para aprender a programar
+    </p>
+
+    <iframe src="https://rodolfomcosta.github.io/HTML-CSS/" frameborder="0" height="500" width="500" scrolling="auto"></iframe>
+
+    <p>
+        O site do <iframe src="https://google.com.br" frameborder="0">
+            <a href="https://www.google.com.br" target="_blank">Google</a>
+        </iframe>também é legal
+    </p>
+    <p>
+        O iframe serve para criar uma janela, como uma nova instância do navegador dentro do site. <br>
+        Alguns sites, como o google, tem proteção para que seu conteúdo não seja utilizado por teceiros. Isso pq o iframe tem alguns problemas de proteção.
+    </p>
+    <h2></h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolor, et veniam totam voluptas fuga quod. Quo accusamus cum voluptate? Molestiae nostrum numquam perspiciatis natus eveniet rem voluptatibus qui autem?
+        </p>
+        <ul>
+            <li>
+                <a href="pags-extras/pag01.html" target="tela">Conteudo 1</a>
+            </li>
+            <li>
+                <a href="pags-extras/pag02.html" target="tela">Conteudo 2</a>
+            </li>
+            <li>
+                <a href="pags-extras/pag03.html" target="tela">Conteudo 3</a>
+            </li>
+        </ul>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione doloremque, quas quis quod soluta officiis inventore harum in at? In minus mollitia exercitationem molestias ipsam enim tenetur ullam Lorem ipsum dolor sit amet consectetur adipisicing elit. Error delectus, ad quaerat pariatur odit dignissimos tenetur blanditiis fugiat. Placeat quasi, vel harum doloremque velit saepe iste quisquam eum similique magnam.
+        </p>
+        <iframe name="tela" srcdoc="<h1>Teste de srcdoc=''</h1><p>O parâmetro srcdoc='' aceita linguagem HTML, gerando uma página estática no iframe.</p><p>Pode, inclusive, mostrar imagens:</p><img src='imagens/pattern001.png'>"></iframe>
+    </body>
+</html>
