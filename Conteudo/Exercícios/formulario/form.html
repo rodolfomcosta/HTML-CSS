@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        div {            
+            width: 400px;
+            height: 250px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: aquamarine;
+        }
+        div h1 {
+            text-align: center;
+        }
+
+        form p, h1 {
+            background-color: lightseagreen;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        p input {
+            position: absolute;
+            right: 240px;
+            background-color: white;
+            border-radius: 2px;
+            border: 1px solid black;
+        }
+
+        p input:hover {
+            border: 2px solid black;
+        }
+
+        input#botao {
+            position: absolute;
+            right: 125px;
+            background-color: lightseagreen;
+            border: 1px solid black;
+            border-radius: 2px;
+            font-weight: bold;
+            padding: 5px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+        #botao:hover {
+            background-color: darkgreen;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+        <form action="cadastro.php" autocomplete="on" method="post">
+            <p><label for="nome">Nome</label>: <input type="text" name="nome" id="nome"></p>
+            <p><label for="sobrenome">Sobrenome</label>: <input type="text" name="sobrenome" id="sobrenome"></p>
+            <input type="submit" value="Enviar" id="botao">
+        </form>
+    </div>
+    <!--
+        Para linkar o campo de imput ao texto de identificação, utiliza-se a tag label.
+
+        Existem dois métodos para envio de formulário:
+        GET (Padrão) - mostra os dados na url
+                     - Máximo de envio de 3 mil bites (3 mil caracteres)
+
+        POST         - não mostra os dados na url
+                     - envio de arquivos
+        O método POST não oferece mais segurança do que o GET, porém é mais recomendado para dados um pouco mais sensível por não mostrar explicitamente as informações ao usuário.
+    -->
+</body>
+</html>
