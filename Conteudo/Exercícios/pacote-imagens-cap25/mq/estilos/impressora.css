@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Estilos exclusivos para impressora*/
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    text-align: justify;
+    width: 100%;
+}
+
+article::after {
+    font-size: 0.5rem;
+    content: 'Artigo impresso pelo site ...com.br';
+}
