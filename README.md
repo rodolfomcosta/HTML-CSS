@@ -5,8 +5,8 @@ Estudando com o objetivo de trabalhar como desenvolvedor Front-End ou Mobile.
 
 Atualmente meus estudos se concentram nas linguagens HTML5 e CSS3, além de conceitos básicos de versionamento de código utilizando Git e GitHub.
 
-Cursos atuais:
-HTML5 e CSS3 - Gustavo Guanabara/Youtube | Módulo 4/5 - Media Query
+Cursos atuais: <br>
+HTML5 e CSS3 - Gustavo Guanabara/Youtube | Módulo 4/5 - Media Query <br>
 Desenvolvimento Mobile - SESI SENAI | Módulo 2/5 - Lógica de Programação
 
 ## Projetos 
