@@ -1,11 +1,13 @@
 # HTML-CSS
  Estudos de HTML e CSS
 
-Estou estudando com o objetivo de trabalhar como desenvolvedor Front-End.
+Estudando com o objetivo de trabalhar como desenvolvedor Front-End ou Mobile.
 
 Atualmente meus estudos se concentram nas linguagens HTML5 e CSS3, além de conceitos básicos de versionamento de código utilizando Git e GitHub.
 
-Curso atual: HTML5 e CSS3 - Gustavo Guanabara/Youtube | Módulo 3
+Cursos atuais:
+HTML5 e CSS3 - Gustavo Guanabara/Youtube | Módulo 4/5 - Media Query
+Desenvolvimento Mobile - SESI SENAI | Módulo 2/5 - Lógica de Programação
 
 ## Projetos 
 
