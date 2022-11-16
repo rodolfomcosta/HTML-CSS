@@ -1,0 +1,12 @@
+{
+  "name": "senatec",
+  "version": "1.0.0",
+  "description": "Projeto de login e cadastro",
+  "main": "./scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodolfo Maia",
+  "license": "ISC",
+  "type": "module"
+}
